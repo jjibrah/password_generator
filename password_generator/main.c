@@ -51,6 +51,6 @@ int main(){
     printf("Password : %s\n", password);
 
     free(password);
-    //char password [length + 1];
+    //char password [length + 1]; --> This can be used instead of the malloc;
 
 }
